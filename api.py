@@ -11,7 +11,7 @@ def pdf():
 
 @app.route("/")
 def home():
-    return "For Translate go to /pdf"
+    return "For PDF go to /pdf"
 
 if __name__ == "__main__":
-    app.run(debug = True, port = 8000)
+    app.run(debug = True, port = 8080)
